@@ -1,4 +1,4 @@
-function tran(start,input,output,dir,end){
+function Tran(start,input,output,dir,end){
   this.start = start;
   this.input = input;
   this.output = output;
