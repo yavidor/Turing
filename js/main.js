@@ -1,5 +1,5 @@
 const trans =[], lim = String.fromCodePoint(0x22A2), empty = String.fromCodePoint(0x2293);
-let input = [lim,'a','a','b','b','c','c','c',empty,empty,empty],i=1,flag=false,isFinished = false;
+let input = [lim,'a','a','b','b','c','c',empty,empty,empty],i=1,flag=false,isFinished = false;
 console.log(String.fromCodePoint(0x22A2));
 let q0 = new State("q0",trans,true,false);
 let q1 = new State("q1",trans,false,false);
